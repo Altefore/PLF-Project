@@ -9,11 +9,7 @@ import scala.util.matching.Regex
 
 
 object Executable {
-
-  abstract class Tree
-  case class Branch(left: Tree, right: Tree) extends Tree
-  case class Leaf(v: String) extends Tree
-
+ 
   def main(args: Array[String]): Unit ={
     var exit = false
     while (!exit) {
